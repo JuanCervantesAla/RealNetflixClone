@@ -1,0 +1,78 @@
+.NavBar{
+    width: 100%;
+    padding: 20px 6%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    font-size: 14px;
+    color: #e5e5e5;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7) 10% , transparent);
+    z-index: 1;
+}
+
+.NavBarLeft{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.NavBarLeft img{
+    width: 90px;
+}
+
+.NavBarLeft ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.NavBarLeft ul li{
+    cursor: pointer;
+}
+
+.NavBarRight{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.NavBarRight .icons{
+    width: 20px;
+    cursor: pointer;
+}
+
+.NavBarRight .profile{
+    border-radius: 4px;
+    width: 35px;
+
+}
+
+.NavBarProfile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.NavBar .DropDown{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: max-content;
+    background: #191919;
+    padding: 18px 22px;
+    border-radius: 2px;
+    text-decoration: underline;
+    z-index: -1;
+    display: none;
+}
+
+.NavBar .DropDown p{
+    font-size: 13px;
+    cursor: pointer;   
+}
+
+.NavBarProfile:hover .DropDown{
+    display: block;
+}

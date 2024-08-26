@@ -1,0 +1,71 @@
+.Hero{
+    position: relative;
+
+}
+
+.BannerImg{
+    width: 100%;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.HeroCaption{
+    position: absolute;
+    width: 100%;
+    padding-left: 6%;
+    bottom: 0;
+}
+
+.CaptionImg{
+    width: 90%;
+    max-width: 420px;
+    margin-bottom: 30px;
+}
+
+.HeroCaption p{
+    max-width: 700px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.HeroBtn{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.HeroBtn .btn img{
+    width: 25px;
+
+}
+
+.Hero .btn{
+    border: 0;
+    outline: 0;
+    padding: 8px 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.HeroBtn .btn.darkBtn{
+    color: #fff;
+    background: #6d6d6eb3;
+}
+
+.HeroBtn .btn:hover{
+    background: #ffffffbf;
+}
+
+.HeroBtn .btn.darkBtn:hover{
+    background: #6d6d6e66;
+}
+
+.moreCards{
+    padding-left: 6%
+}
